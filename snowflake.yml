@@ -1,0 +1,12 @@
+definition_version: 1
+project:
+  name: autopulse
+  type: streamlit
+
+streamlit:
+  name: AUTOPULSE_OS
+  stage: STREAMLIT_STAGE
+  query_warehouse: AUTOPULSE_WH
+  main_file: streamlit_app.py
+  artifacts:
+    - app/streamlit_app.py
